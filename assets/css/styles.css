@@ -1,2 +1,10 @@
 
 /* css */
+.green-box {
+    background-color:#1ab26b;
+    color: white;
+    padding: 10px;
+    border-radius: 80px; /* Adjust the value to control the roundness */
+  }
+
+  
