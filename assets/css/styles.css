@@ -21,6 +21,13 @@ body{
   color: white;
 }
 
+.arrow{
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+
 .green-box {
     background-color:#1ab26b;
     color: white;
