@@ -38,4 +38,5 @@ myForm.addEventListener("submit", (event) => {
     this.answer.value = answer;
 
 	const scoreElement = document.querySelector('.Score');
+	scoreElement.textContent = answer.toFixed(1);
 });
