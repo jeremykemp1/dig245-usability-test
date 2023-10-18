@@ -21,6 +21,11 @@ body{
   color: white;
   position: relative;
   top: 80px;
+  filter: drop-shadow(0 0 0.75rem #1ab26b);
+}
+
+.Image{
+  filter: drop-shadow(0 0 0.75rem #1ab26b);
 }
 
 .arrow{
@@ -56,6 +61,7 @@ body{
   .subheading{
     font-size: 50px;
     font-weight: bolder;
+    filter: drop-shadow(0 0 0.75rem #1ab26b);
   }
 
   .summary{
@@ -72,11 +78,13 @@ body{
   .YourScore{
     font-size: 60px;
     font-weight: bold;
+    filter: drop-shadow(0 0 0.75rem #1ab26b);
   }
 
   .Score{
     font-size: 140px;
     font-weight: bold;
+    filter: drop-shadow(0 0 0.75rem #1ab26b);
   }
 
   .formTitle{
