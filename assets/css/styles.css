@@ -29,17 +29,43 @@ body{
 }
 
 .green-box {
-    background-color:#1ab26b;
-    color: white;
-    padding: 10px;
-    border-radius: 80px; 
-    font-weight: bold;
+  background-color:#1ab26b;
+  color: white;
+  padding: 10px;
+  border-radius: 80px; 
+  font-weight: bold;
+  }
+
+  .dottedFlipped{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    transform: scaleX(-1);
+  }
+
+  .dotted{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
   }
 
   .subheading{
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
   }
+
+  .summary{
+    font-size: 18px;
+    font-weight:lighter;
+  }
+
+  .quantities{
+    font-size: 24px;
+    font-weight:bold;
+  }
+
 
   .YourScore{
     font-size: 60px;
