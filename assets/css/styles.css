@@ -19,6 +19,8 @@ body{
   font-size: 96px;
   font-weight: bold;
   color: white;
+  position: relative;
+  top: 80px;
 }
 
 .arrow{
