@@ -1,4 +1,3 @@
-
 /* javascript */
 let myForm = document.querySelector("#myForm");
 
@@ -36,6 +35,6 @@ myForm.addEventListener("submit", (event) => {
 	// Add all converted responses; multiply that total by 2.5.
 	let answer = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10) * 2.5;
 
-	// store in a new input
-	this.answer.value = answer;
+	// Display the total value in the "answer" input field
+    document.getElementById("answer").value = answer.toFixed(1);
 });
